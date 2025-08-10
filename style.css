@@ -1,0 +1,217 @@
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: hsl(210, 10%, 33%);
+}
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: hsl(210, 10%, 33%);
+}
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: hsl(210, 10%, 33%);
+}
+p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 40%;
+  color: hsl(201, 11%, 66%);
+}
+.company-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.computer-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.device {
+  display: flex;
+  justify-content: center;
+}
+.table {
+  display: flex;
+  align-content: center;
+}
+.subtable {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.button-1 {
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 20px;
+}
+.button-2 {
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 20px;
+}
+.track {
+  margin-top: 100px;
+}
+.header {
+  background-image: url(bg-header-desktop.png);
+}
+
+#two {
+  margin-top: 100px;
+}
+.blacklist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+#three {
+  margin-bottom: 70px;
+}
+#four {
+  display: flex;
+  margin-bottom: 90px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(201, 11%, 90%);
+  padding: 30px;
+  margin-top: 80px;
+}
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+}
+.logo-2 {
+  width: 100px;
+}
+.logo-2 img {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.icon {
+  margin-right: 10px;
+}
+.icon img {
+  margin-top: 20px;
+}
+.button-1:hover {
+  background-color: hsl(171, 50%, 44%);
+}
+.button-2:hover {
+  background-color: hsl(233, 70%, 69%);
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 40%;
+  color: hsl(201, 11%, 66%);
+}
+.lastline {
+  margin-bottom: 100px;
+}
+.boxlink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+
+}
+.logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-container{
+   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.boxlink p{
+  display: block;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+  width: max-content;
+}
